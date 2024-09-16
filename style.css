@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    width: 50px;
+    height: auto; 
+}
+
+.logo img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 15px; 
+    font-weight: bold;
+    display: inline-block; 
+}
+
+nav a:hover {
+    color: rgb(212, 95, 236);
+}
+
+nav .account, nav .cart {
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 50px; 
+    border: 1px solid #ccc;
+    width: 200px;
+}
