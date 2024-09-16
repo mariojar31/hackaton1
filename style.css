@@ -1,0 +1,116 @@
+.header-principal{
+    font-size: 5vw;
+}
+
+#btn-cta{
+    width: 20vw;
+}
+
+#btn-cta:hover{
+    background-color: #C2000B;
+}
+
+#principal-img{
+    width: 40vw;
+    height: auto;
+}
+
+
+.logo {
+    width: 10vw;
+    height: auto; 
+    min-width: 90px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.navb {
+    display: flex;
+    align-items: center;
+}
+
+.navb a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 15px; 
+    font-weight: bold;
+    display: inline-block; 
+}
+
+.navb a:hover {
+    color: rgb(212, 95, 236);
+}
+
+.navb .account, nav .cart {
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 50px; 
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.icon-footer{
+    width: 2vw;
+    height: auto;
+    min-width: 30px;
+}
+
+.contact-text{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.contact-text:hover{
+    font-size: 1rem;
+    color: #C2000B;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+
+    .header-principal{
+        font-size: 2rem;
+    }
+
+    #principal-img{
+        width: 80vw;
+        height: auto;
+    }
+
+    #btn-cta{
+        width: 60vw;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}

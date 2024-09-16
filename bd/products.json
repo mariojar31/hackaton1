@@ -1,0 +1,156 @@
+[
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-01.png",
+        "img2":"./pictures/products/camisa-02.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-03.png",
+        "img2":"./pictures/products/camisa-04.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-05.png",
+        "img2":"./pictures/products/camisa-06.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-07.png",
+        "img2":"./pictures/products/camisa-08.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-09.png",
+        "img2":"./pictures/products/camisa-10.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-11.png",
+        "img2":"./pictures/products/camisa-12.png"
+    },
+    {
+        "name":"Camisa Basketball Color",
+        "category":"basket",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-13.png",
+        "img2":"./pictures/products/camisa-14.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-15.png",
+        "img2":"./pictures/products/camisa-16.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-17.png",
+        "img2":"./pictures/products/camisa-18.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-19.png",
+        "img2":"./pictures/products/camisa-20.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-21.png",
+        "img2":"./pictures/products/camisa-22.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-23.png",
+        "img2":"./pictures/products/camisa-24.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-25.png",
+        "img2":"./pictures/products/camisa-26.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-27.png",
+        "img2":"./pictures/products/camisa-28.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-29.png",
+        "img2":"./pictures/products/camisa-30.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-31.png",
+        "img2":"./pictures/products/camisa-32.png"
+    },
+    {
+        "name":"Camisa Futbol Color",
+        "category":"futbol",
+        "gender":"male",
+        "price":"$75.000",
+        "description":"Camisa para equipo de futbol personalizable.",
+        "img1":"./pictures/products/camisa-33.png",
+        "img2":"./pictures/products/camisa-34.png"
+    }
+    
+]

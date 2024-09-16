@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayerStyle | Tienda Deportiva Virtual</title>
+    <meta name="author" content="Mario Acendra, Maria Jose Malaver, Natalia Torres">
+    <meta name="description" content="Una tienda deportiva donde podrás comprar y personalizar tus playeras agregandole tu nombre y número.">
+    <meta name="keywords" content="sport, players, playeras, deportes, futbol, futball, basketball, voleiball, t-shirts, shirts">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./productos.css">
+</head>
+<body>
+<!-- Header: Menú de Navegación -->
+    <div id="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <a href="#" style="width: 10vw; height: auto;">
+                    <img src="./pictures/logo_dark-02.png" alt="Logo PlayerStyle" class="logo">
+                </a>
+
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 300px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#cuenta">Cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carrito">Carrito<span id="cart-indicator" class="badge bg-secondary"></span></a>
+                        </li>
+                    </ul>
+                    <form id="search-bar" class="d-flex d-small-none" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar productos..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+<!-- Contenido Principal -->
+
+    <div id="main">
+        <div id="presentacion" class="d-flex flex-column-reverse flex-sm-row p-5">
+            <div id="content-principal" class="d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <div id="p-head">
+                        <h1 class="header-principal">¡Tu Número,</h1>
+                        <h1 class="header-principal">tu Estílo, tu Juego!</h1>
+                    </div>
+                    <p>Diseña tu propia historia deportiva, con prendas hechas para destacar tanto en rendimiento como en estilo. Aquí, cada jugador es único y cada playera también.
+                    </p>
+                    <button id="btn-cta" class="btn btn-secondary">¡Hazla Tuya!</button>
+                </div>
+            </div>
+            <div >
+                <img src="./pictures/principalPict.png" id="principal-img"  alt="Hombre y mujer con playeras deportivas">
+            </div>
+        </div>
+    </div>
+
+<!-- Contenido Productos -->
+
+<h2 id="productos" class="title-product bg-dark p-3 text-light">Productos</h2>
+<section class="section-product p-5">
+    <!-- filter -->
+    <article class="article-filter py-3">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Deporte
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><div class="dropdown-item" onclick="selectFilter('futbol')">Fútbol</div></li>
+                <li><div class="dropdown-item" onclick="selectFilter('basket')">Baloncesto</div></li>
+                <li><div class="dropdown-item" onclick="selectFilter('none')">Quitar Filtros</div></li>
+            </ul>
+        </div>
+
+    </article>
+
+
+    <!-- contenedor de las cards -->
+    <article id="product-container" class="aticle-cards d-flex justify-content-around flex-wrap text-center">
+
+        
+
+    </article>
+
+</section>
+
+<!-- Pie de Página -->
+    <footer id="contacto" class="d-flex flex-column bg-dark text-center p-3">
+     
+        <a href="./index.html">
+            <img style="width: 20vw; height: auto; min-width: 100px;" src="./pictures/logo_dark-02.png" alt="" class="footer-img">
+        </a>
+
+        <ul class="icons-footer d-flex justify-content-around">
+            <a href="https://web.whatsapp.com/" class="d-flex">
+                <img class="icon-footer p-2" src="./pictures/whatsapp-brands-solid.svg" alt="Icono Whatsapp">
+                <p class="contact-text">+57 555 5555</p>
+            </a>
+            <a href="https://www.facebook.com/"  class="d-flex">
+                <img class="icon-footer p-2" src="./pictures/facebook-brands-solid.svg" alt="Icono Facebook">
+                <p class="contact-text">PlayerStyleStore</p>
+
+            </a>
+            <a href="https://www.instagram.com/"  class="d-flex">
+                <img class="icon-footer p-2" src="./pictures/instagram-brands-solid.svg" alt="Icono Instagram">
+                <p class="contact-text">PlayerStyle</p>
+
+            </a>
+        </ul>
+        
+        </div>
+        <hr>
+        <div class="footer-derechos">
+            <span style="color: #f5f5f5; font-weight: semibold;text-align: center;">
+                © 2024 PlayerStyle
+            </span>
+
+        </div>
+    
+
+    </footer>
+
+<!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
